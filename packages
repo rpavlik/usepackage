@@ -1,7 +1,7 @@
 #
 # usepackage standard packages file
 #
-# $Id: packages,v 1.11 1995/08/18 16:46:47 jonathan Exp $
+# $Id: packages,v 1.12 1995/08/18 17:01:36 jonathan Exp $
 #
 # format:
 #
@@ -32,8 +32,10 @@
 
 ### empty path: ###
 
-empty * * * :		PATH = "",
+none * * * :		PATH = "",
 			MANPATH = "" ;
+			LD_LIBRARY_PATH = "" ;
+
 
 ### standard things that everyone should have: ###
 
