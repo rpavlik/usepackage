@@ -1,7 +1,7 @@
 #
 # usepackage standard packages file
 #
-# Version: $Revision: 1.7 $
+# Version: $Revision: 1.8 $
 #
 # format:
 #
@@ -203,6 +203,13 @@ CDE * SunOS * * :		PATH += /usr/dt/bin,
 				XFILESEARCHPATH
 				  += /usr/dt/%T/%L/%N%S:
 				     /usr/dt/lib/%T/%N%S ;
+
+
+### Motif: ###
+
+>> Motif : "the Motif libraries (without the rest of CDE)" <<
+
+* * SunOS * * :			LD_LIBRARY_PATH += /usr/dt/lib ;
 
 
 ### TeX: ###
