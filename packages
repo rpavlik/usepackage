@@ -1,7 +1,7 @@
 #
 # usepackage standard packages file
 #
-# Version: $Revision: 1.24 $
+# Version: $Revision: 1.25 $
 #
 # format:
 #
@@ -61,7 +61,7 @@ none * * * * :		PATH = "",
 
 ### standard things that everyone should have: ###
 
-standard i86pc SunOS * * :	PATH += /usr/ccs/bin ;
+standard * SunOS 5.* * :	PATH += /usr/ccs/bin ;
 standard sun4* SunOS 4.* * :	PATH += /usr/lang ;
 standard sun4* * * * :	PATH += /local/sun4/bin,
 			MANPATH += /local/man ;
