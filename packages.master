@@ -1,7 +1,7 @@
 #
 # usepackage standard packages file
 #
-# Version: $Revision: 1.10 $
+# Version: $Revision: 1.11 $
 #
 # format:
 #
@@ -239,6 +239,7 @@ SPARCworks * SunOS 5.* * :	PATH += /opt/SUNWspro/bin,
 (include packages.vlsi)
 (include packages.fp)
 (include packages.rapids)
+(include packages.our)
 
 
 ### include user's own packages information: ###
