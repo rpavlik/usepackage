@@ -67,7 +67,7 @@ void main(int argc, char *argv[])
       exit(1);
    }
 
-   DEBUG("# usepackage\n# (Release $Name:  $)\n");
+   DEBUG("# usepackage\n# ($Id: usepackage.c,v 1.7 1995/08/17 13:59:28 jonathan Exp $)\n");
 
    uname(&the_host_info);
    DEBUG("# host: %s\n", the_host_info.nodename);
