@@ -1,7 +1,7 @@
 #
 # usepackage standard packages file
 #
-# Version: $Revision: 1.17 $
+# Version: $Revision: 1.18 $
 #
 # format:
 #
@@ -151,6 +151,11 @@ FP sun4* * * * :	PATH += /local/fp/bin.sun4 ;
 ### CLAyTools only licensed for copinsay at present: ###
 
 CLAyTools * * * copinsay : PATH += /local/vlsi/claytools/1.11/bin ;
+
+
+### MH mail system: ###
+
+MH sun4* * * * :	PATH += /local/sun4/mh/bin ;
 
 
 ### include users own packages information: ###
