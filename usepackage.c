@@ -82,7 +82,7 @@ void main(int argc, char *argv[])
    }
 
    DEBUG("# usepackage\n");
-   DEBUG("# ($Id: usepackage.c,v 1.12 1995/08/18 17:01:41 jonathan Exp $)\n");
+   DEBUG("# ($Id: usepackage.c,v 1.13 1995/08/19 12:13:41 jonathan Exp $)\n");
 
    uname(&the_host_info);
    DEBUG("# host: %s\n", the_host_info.nodename);
@@ -271,6 +271,9 @@ linked_list* make_pathlist(char* path_string)
    char* path;
 
    list = new_list();
+
+   if (!path_string)
+      return(list);
 
    start = 0;
    i = 0;
