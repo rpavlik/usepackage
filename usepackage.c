@@ -91,7 +91,8 @@ void main(int argc, char *argv[])
    }
 
    DEBUG("# usepackage\n");
-   DEBUG("# ($Id: usepackage.c,v 1.14 1995/08/19 13:14:07 jonathan Exp $)\n");
+   DEBUG("# Release: $Name:  $");
+   DEBUG("# Copyright (c) Jonathan Hogg\n");
 
    uname(&the_host_info);
    DEBUG("# host: %s\n", the_host_info.nodename);
