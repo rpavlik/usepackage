@@ -1,7 +1,7 @@
 #
 # usepackage standard packages file
 #
-# Version: $Revision: 1.36 $
+# Version: $Revision: 1.37 $
 #
 # format:
 #
@@ -274,6 +274,12 @@ pegasus sun4* SunOS 4.* * :	PATH += /usr/local/pegasus/bin:
 				/local/peg1/install/sparc-sun-sunos4/bin ;
 pegasus sun4* SunOS 5.* * :	PATH += /usr/local/pegasus/bin:
 				/local/peg1/install/sparc-sun-solaris2/bin ;
+
+
+
+### ARM tools: ###
+
+armtools sun4* SunOS 4.* * :	PATH += /local/sun4/armtools/sunos/bin ;
 
 
 ### include users own packages information: ###
