@@ -1,7 +1,7 @@
 #
 # usepackage standard packages file
 #
-# Version: $Revision: 1.45 $
+# Version: $Revision: 1.46 $
 #
 # format:
 #
@@ -332,6 +332,15 @@ ghc-working sun4* * * * :
 	PATH += /local/grasp_tmp3/partain/ghc-BUILDS/working/ghc/driver ;
 ghc-working alpha * * * :
 	PATH += /local/grasp_tmp3/partain/ghc-BUILDS/working-alpha/ghc/driver ;
+
+
+### Fvwm window manager (courtesy of Adam Donlin): ###
+
+fvwm sun4* * * * :	PATH += ~donlina/lib/X11/fvwm,
+			LD_LIBRARY_PATH += ~donlina/lib/X11/fvwm ;
+
+fvwm i86pc * * * :	PATH += ~donlina/lib/i86pc/X11/fvwm,
+			LD_LIBRARY_PATH += ~donlina/lib/i86pc/X11/fvwm ;
 
 
 ### include users own packages information: ###
