@@ -1,7 +1,7 @@
 #
 # usepackage standard packages file
 #
-# Version: $Revision: 1.5 $
+# Version: $Revision: 1.6 $
 #
 # format:
 #
@@ -130,6 +130,8 @@ Ingres * SunOS 5.* * :		II_SYSTEM = /local/ingres_sys/ingres,
 
 
 ### X11: ###
+
+X11 := X11-local, X11-common ;
 
 X11-local * * * * :		PATH += /usr/X11/bin,
 				MANPATH += /usr/X11/man,
