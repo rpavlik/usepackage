@@ -1,7 +1,7 @@
 #
 # contrib packages
 #
-# Version: $Revision: 1.2 $
+# Version: $Revision: 1.3 $
 #
 # [see packages.master]
 #
@@ -49,5 +49,15 @@ our-hwdesign * * * {slimy,slicker,slinger} <= our :
 our-sysadmin * * * {slimy,slicker,slinger} <= our :
         PATH += /our/sbin:/our/sysadmin/bin:/our/sysadmin/sbin,
         MANPATH += /our/sysadmin/man ;
+
+
+### OUR KDE installation: ###
+
+>> our-kde : "OUR KDE installation" <<
+
+our-kde * * * {slimy,slicker,slinger} <= our :
+        PATH += /our/kde/bin,
+        MANPATH += /our/kde/man,
+        LD_LIBRARY_PATH += /our/kde/lib ;
 
 
