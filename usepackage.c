@@ -79,7 +79,7 @@ void main(int argc, char *argv[])
 	 }
    }
 
-   if (i == argc)
+   if (i >= argc)
    {
       fprintf(stderr, "usage: usepackage [-vscb] [-f <file>] <package> [<package>...]\n\n");
       fprintf(stderr, "       -v : verbose\n");
@@ -91,7 +91,7 @@ void main(int argc, char *argv[])
    }
 
    DEBUG("# usepackage\n");
-   DEBUG("# Version: $Revision: 1.18 $\n");
+   DEBUG("# Version: $Revision: 1.19 $\n");
    DEBUG("# Copyright (c) Jonathan Hogg, 1995\n");
 
    uname(&the_host_info);
