@@ -1,10 +1,12 @@
 #
 # FP group packages
 #
-# Version: $Revision: 1.1 $
+# Version: $Revision: 1.2 $
 #
 # [see packages.master]
 #
+
+>> FP : "Functional Programming group stuff (including ghc and hugs)" <<
 
 FP * * * * :            PATH += /local/fp/bin,
                         MANPATH += /local/fp/man ;
