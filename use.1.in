@@ -1,4 +1,4 @@
-.TH USE 1 "$Date: 2001/09/17 21:38:06 $" "Usepackage" "User Commands"
+.TH USE 1 "$Date: 2001/09/17 22:27:55 $" "Usepackage" "User Commands"
 .SH NAME
 use \- environment management program
 .SH SYNOPSIS
@@ -75,7 +75,7 @@ or otherwise defaults to the builtin name "packages.master" (see
 This file is located by searching along a path which defaults to:
 .PP
 .nf
-     INSTALL_DIR/lib/usepackage:~:.
+     DEFAULT_PACKAGE_PATH
 .fi
 .PP
 This path may be overridden with the PACKAGES_PATH environment variable
