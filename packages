@@ -1,7 +1,7 @@
 #
 # usepackage standard packages file
 #
-# Version: $Revision: 1.16 $
+# Version: $Revision: 1.17 $
 #
 # format:
 #
@@ -152,4 +152,8 @@ FP sun4* * * * :	PATH += /local/fp/bin.sun4 ;
 
 CLAyTools * * * copinsay : PATH += /local/vlsi/claytools/1.11/bin ;
 
+
+### include users own packages information: ###
+
+(include ~/.packages)
 
