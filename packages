@@ -1,7 +1,7 @@
 #
 # usepackage standard packages file
 #
-# Version: $Revision: 1.37 $
+# Version: $Revision: 1.38 $
 #
 # format:
 #
@@ -279,7 +279,8 @@ pegasus sun4* SunOS 5.* * :	PATH += /usr/local/pegasus/bin:
 
 ### ARM tools: ###
 
-armtools sun4* SunOS 4.* * :	PATH += /local/sun4/armtools/sunos/bin ;
+armtools sun4* SunOS 4.* * :	PATH += /local/sun4/armtools/sunos/bin,	
+				ARMLIB = /local/sun4/armtools/common/lib ;
 
 
 ### include users own packages information: ###
