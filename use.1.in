@@ -1,4 +1,4 @@
-.TH USE 1 "$Date: 2002/05/27 08:11:11 $" "Usepackage" "User Commands"
+.TH USE 1 "$Date: 2002/05/27 09:09:57 $" "Usepackage" "User Commands"
 .SH NAME
 use \- environment management program
 .SH SYNOPSIS
@@ -280,7 +280,7 @@ Colon-separated path list giving the directories to search for the master
 packages file and included files. Shell-style tilde (~) user-directory 
 escapes are expanded.
 .SH COPYRIGHT
-Copyright (C) 1995-2001 Jonathan Hogg.
+Copyright (C) 1995-2002 Jonathan Hogg.
 .PP
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
