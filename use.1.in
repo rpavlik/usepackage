@@ -1,4 +1,4 @@
-.TH USE 1 "$Date: 2003/11/16 23:09:20 $" "Usepackage" "User Commands"
+.TH USE 1 "$Date: 2003/11/16 23:20:48 $" "Usepackage" "User Commands"
 .SH NAME
 use \- Frontend to the
 .I Usepackage
@@ -86,8 +86,8 @@ the tilde (~) user-directory.
 If present in the environment, the last path component of this is used for
 shell matching (see
 .IR SYNTAX )
-and detecting the style of environment output that should be used (see
-.IR OPTIONS ).
+and detecting the style of environment output that should be used, see
+.IR usepackage(1) .
 .SH COPYRIGHT
 .nf
 Usepackage Environment Manager
