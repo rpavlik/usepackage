@@ -67,7 +67,7 @@ void main(int argc, char *argv[])
 	       csh_user = 0;
 	       break;
 	    default:
-	       fprintf(stderr, "%s: unrecognised flag '%c'\n", argv[0], f);
+	       fprintf(stderr, "%s: unrecognised flag '%c'\n", argv[0], *f);
 	       exit(1);
 	 }
    }
@@ -82,7 +82,7 @@ void main(int argc, char *argv[])
    }
 
    DEBUG("# usepackage\n");
-   DEBUG("# ($Id: usepackage.c,v 1.8 1995/08/18 10:50:12 jonathan Exp $)\n");
+   DEBUG("# ($Id: usepackage.c,v 1.9 1995/08/18 14:27:44 jonathan Exp $)\n");
 
    uname(&the_host_info);
    DEBUG("# host: %s\n", the_host_info.nodename);
