@@ -1,6 +1,8 @@
 #
 # usepackage standard packages file
 #
+# $Id: packages,v 1.6 1995/08/17 14:08:18 jonathan Exp $
+#
 # format:
 #
 # 	<packagename> <arch> <os> <host> :
