@@ -1,7 +1,7 @@
 #
 # usepackage standard packages file
 #
-# Version: $Revision: 1.21 $
+# Version: $Revision: 1.22 $
 #
 # format:
 #
@@ -114,6 +114,11 @@ Ruby * * * * :
 MEBS sun4* * * * :	PATH += /local/vlsi/mebs/MEBS1.2/bin,
 			MANPATH += /local/vlsi/mebs/MEBS1.2/man,
 			MEBS_ROOT = /local/vlsi/mebs/MEBS1.2 ;
+
+
+### V-System VHDL Simulator (sun4 only): ###
+
+VSystem sun4* * * * :	PATH += /local/sun4/V-System/modeltech/sun4 ;
 
 
 ### Alsys Ada can only be used on hawaii, albatross, and walrus: ###
